@@ -34,7 +34,7 @@ const HeaderCarousel = () => {
                     className='rounded-none'
                 />
             </Carousel>
-            <div className='w-[800px] mx-auto flex items-center justify-between py-10'>
+            <div className='w-[800px] mx-auto flex items-center justify-between  my-8 bg-slate-100'>
                 <button className='px-4 py-2 bg-emerald-600 text-white w-[200px]'>সর্ব শেষ ঘষনাঃ</button><div className='w-full'><marquee>এই মূহুর্তে কোন প্রকার ঘষনা নাই।</marquee></div>
             </div>
         </div>

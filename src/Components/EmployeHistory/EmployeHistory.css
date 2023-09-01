@@ -1,0 +1,23 @@
+/* Webkit-based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #76a9fa;
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00a6ff;
+  }
+  
+  /* Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: #76a9fa #00a6ff;
+  
+  /* Optional: Adjust the size of the Firefox scrollbar */
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #76a9fa #00a6ff;
+  }
