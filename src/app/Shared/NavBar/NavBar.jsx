@@ -1,6 +1,6 @@
 'use client';
 
-import { Dropdown, Navbar, Avatar, Item } from 'flowbite-react';
+import { Dropdown, Navbar, Avatar } from 'flowbite-react';
 import './NavBar.css'
 const NavBar = () => {
     return (
@@ -24,19 +24,19 @@ const NavBar = () => {
                             name@flowbite.com
                         </span>
                     </Dropdown.Header>
-                    <Item>
+                    <li>
                         Dashboard
-                    </Item>
-                    <Item>
+                    </li>
+                    <li>
                         Settings
-                    </Item>
-                    <Item>
+                    </li>
+                    <li>
                         Earnings
-                    </Item>
+                    </li>
                     <Dropdown.Divider />
-                    <Item>
+                    <li>
                         Sign out
-                    </Item>
+                    </li>
                 </Dropdown>
                 <Navbar.Toggle />
             </div>
