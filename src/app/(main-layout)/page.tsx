@@ -5,7 +5,7 @@ import EmployeHistory  from '@/Components/EmployeHistory/EmployeHistory';
 
 export default function Home() {
   return (
-    <main className="w-[1280px] mx-auto">
+    <main>
       {/* <h1 className='text-7xl'>Hello World</h1> */}
       <HeaderCarousel></HeaderCarousel>
       <div>

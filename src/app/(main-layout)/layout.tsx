@@ -2,10 +2,10 @@ import NavBar from '../Shared/NavBar/NavBar.jsx'
 
 
 
-const layout = ({children}) => {
+const layout = ({ children }) => {
   return (
     <div>
-      <div>
+      <div className="w-[1280px] mx-auto">
         <div>
           <NavBar></NavBar>
         </div>

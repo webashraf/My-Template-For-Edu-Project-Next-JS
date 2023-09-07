@@ -8,7 +8,7 @@ const EmployeHistory = () => {
         <div className='grid grid-cols-2 gap-4 py-20'>
             <div>
                 <h4 className='text-2xl font-serif py-2'>Teachers</h4>
-                <div className='h-[40vh] overflow-y-scroll'>
+                <div className='h-[40vh] overflow-y-scroll overflow-x-hidden'>
                     <Table hoverable>
                         <Table.Head>
                             <Table.HeadCell className="p-4">
@@ -304,7 +304,7 @@ const EmployeHistory = () => {
             </div>            
             <div>
                 <h4 className='text-2xl font-serif py-2'>Other Employ</h4>
-                <div className='h-[40vh] overflow-y-scroll'>
+                <div className='h-[40vh] overflow-y-scroll overflow-x-hidden'>
                     <Table hoverable>
                         <Table.Head>
                             <Table.HeadCell className="p-4">
@@ -600,7 +600,7 @@ const EmployeHistory = () => {
             </div>
             <div className='col-span-2'>
                 <h4 className='text-2xl font-serif py-2'>Students</h4>
-                <div className='h-[40vh] overflow-y-scroll'>
+                <div className='h-[40vh] overflow-y-scroll overflow-x-hidden'>
 
                     <Table hoverable>
                         <Table.Head>
